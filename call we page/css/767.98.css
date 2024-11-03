@@ -1,0 +1,13 @@
+.page-icons {
+    display: block;
+}
+.page-icons div {
+    margin: 1rem;
+}
+.page-inputs button {
+    width: 100%;
+    background: #3f1f92;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 2rem;
+}

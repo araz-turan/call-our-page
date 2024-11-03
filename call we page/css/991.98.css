@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.page-icons {
+    display: grid;
+    grid-template-columns: 33% 31% 36%;
+}
+.page-icons div {
+    margin: 1rem 0.1rem;
+}
+.page-icons::before {
+    display: none;
+}
+.page-inputs {
+    position: relative;
+    padding: 1rem;
+}
+.page-inputs::after {
+    content: '';
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 0.1rem;
+    background: #808080;
+} 
